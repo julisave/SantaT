@@ -1,0 +1,174 @@
+﻿
+@{
+    ViewBag.Title = "HistoriaClinica";
+}
+
+<h2 class="text-center" style=" margin:50px 0;">HISTORIA CLINICA</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Hospital Santa Tecla</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="row" style="margin-top: 10px;">
+        <div class="col-md-3">
+
+            <div class="form-group">
+                <label for="Fecha">Fecha</label> 
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Ingresar la fecha de hoy">
+                <i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                <input type="date" class="form-control" id="Fecha">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="TipoIdentificacion">Tipo de identificación</label>
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Debe seleccionar el tipo de identificación">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+            </a>
+            <br>
+            <select id="TipoIdentificacion" class="js-select-basic-single js-states form-control" style="width: 100%;">
+                <option value="0"></option>
+                <option value="1">Cédula de Ciudadania</option>
+                <option value="2">Cédula de Extranjería</option>
+                <option value="3">Tarjeta de Identidad</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label for="NumeroIdentificacion">Número de identificación </label>
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Número de identificación">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+            </a><br>
+            <input type="number"  class="form-control" name="id_practica" id="NumeroIdentificacion">
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label for="Edad">Edad</label> 
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar la edad del paciente"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                <input type="number"  class="form-control" id="NumeroIdentificacion">
+
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 10px;">
+
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="NombreCompletoPaciente">Nombre completo del paciente</label>
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar el nombre completo del paciente"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                <input type="text" class="form-control" id="NombreCompletoPaciente">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="ApellidoPaciente">Apellidos del paciente</label>
+                 <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar el apellido del paciente"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                <input type="text" class="form-control" id="ApellidoPaciente">
+            </div>
+        </div>
+        <div class="col-md-4 ">
+            <div class="form-group">
+                <label for="Sexo">Sexo</label><a href="#" data-toggle="tooltip" data-placement="right" title="Debe seleccionar el sexo del paciente">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </a>
+                <br>
+                <select id="Sexo" class="js-select-basic-single js-states form-control" style="width: 100%;">
+                    <option value="0"></option>
+                    <option value="1">Femenino</option>
+                    <option value="2">Masculino</option>
+
+                </select>
+            </div>
+        </div>
+        </div> 
+       <br>
+    <br>
+    <div class="row col-xs-12 col-sm-12" style="margin-top: 10px;">
+    
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="MotivoConsulta">Motivo de consulta</label> 
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Debe describir el motivo de la consulta "><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                    <textarea class="form-control" id="MotivoConsulta"></textarea>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="Sintomas">Sintomas</label> 
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Debe ingresar los sintomas"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                    <textarea class="form-control" id="Sintomas"></textarea>
+                </div>
+            </div>
+        </div>
+    <div class="row col-xs-12 col-sm-12" style="margin-top: 10px;">
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="Antecedentes">Antecedentes</label> <a href="#" data-toggle="tooltip" data-placement="right" title="Debe describir los antecedentes"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                <textarea class="form-control" id="Antecedentes"></textarea>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="MedicamentosRecetados">Medicamentos Recetados</label>
+                 <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar el mèdicamento recetado"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                <textarea class="form-control" id="MedicamentosRecetados"></textarea>
+            </div>
+        </div>
+        </div>
+    <div class="row col-xs-12 col-sm-12" style="margin-top: 10px;">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="DosisPrescrita">Dosis Prescrita</label>
+                 <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar la dosis"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                <input type="number"  class="form-control" id="DosisPrescrita">
+               
+            </div>
+            </div>
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="NombreMedico">Nombre del médico</label> <a href="#" data-toggle="tooltip" data-placement="right" title="Se debe ingresar el nombre del medico"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                <input type="text" class="form-control" id="NombreMedico">
+            </div>
+        </div>
+        </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="esaveubicaacom">Guardar</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                </div>
+            
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+        <!-- Custom scripts for this template -->
+        <script src="js/freelancer.min.js"></script>
+        <script src="js/freelancer.js"></script>
+</body>
+</html>
+
+
+

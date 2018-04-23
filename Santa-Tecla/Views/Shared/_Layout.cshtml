@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Hospital Universitario", "Index", "Home", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Departamento", "Departamento", "Home")</li>
+                    <li>@Html.ActionLink("Quienes somos", "QuienesSomos", "Home")</li>
+                    <li>@Html.ActionLink("Contacto", "Contacto", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer  >
+            <div class="row" style=" padding:40px 0;">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Dirección</h4>
+                    <p class="lead mb-0">
+                        Medellín - Antioquia
+                        <br>Cra 50C 63-24
+                    </p>
+                </div>
+
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Visitanos</h4>
+
+                    <a title="Facebook" target="_blank" href="http://ww.facebook.com/santa.tecla.104"><img src="../../Fotos/fb.png" width="50" height="50"></a>
+
+
+
+
+                    <a title="Google+" target="_blank" href="https://plus.google.com/u/2/101131997682524692749"><img src="../../Fotos/google.png" width="50" height="50"></a>
+
+
+                    <a title="Twitter" target="_blank" href="https://twitter.com/STeclaHospital"><img src="../../Fotos/twitter.png" width="40" height="40"></a>
+
+                </div>
+                </div> 
+            <div class=" row">
+                <div class=" col-md-12" style=" background-color: #000; color: white; width:100%; height:80px; padding:20px 0; text-align:center;  ">
+                    <p> &copy; @DateTime.Now.Year -Hospital Universitario</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

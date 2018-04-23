@@ -1,0 +1,203 @@
+﻿
+@{
+    ViewBag.Title = "Farmacia";
+}
+
+<h2 class="text-center" style=" margin:50px 0;">FARMACIA</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Hospital Santa Tecla</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+</head>
+<body id="page-top">
+
+    <p class="text-center"><strong>DATOS PERSONALES</strong></p>
+    <br>
+ 
+    <div class=" form-group form">
+
+        <div class="container-fluid">
+
+            <section class="container">
+
+                <div class="row" style="margin-top: 10px;">
+
+                    <div class="col-md-4">
+                        <div class="form-group ">
+                            <label for="NumeroIdentificacion">Número de Identificación personal farmacia </label>
+                             <a href="#" data-toggle="tooltip" data-placement="right" title="Número de identificación">
+                                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            </a><br>
+                            <input type="text" class="form-control" name="id_practica" id="NumeroIdentificacion">
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 ">
+                        <div class="form-group">
+                            <label for="TipoIdentificacion">Tipo de identificación</label>
+                            <a href="#" data-toggle="tooltip" data-placement="right" title="Debe seleccionar el tipo de identificación">
+                                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            </a>
+                            <br>
+                            <select id="TipoIdentificacion" class="js-select-basic-single js-states form-control" style="width: 100%;">
+                                <option value="0"></option>
+                                <option value="1">Cédula de ciudadania</option>
+                                <option value="2">Cédula de extranjería</option>
+                                <option value="3">Tarjeta de identidad</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="NombrePersonal">Nombre completo del personal de Farmacia</label> <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar el nombre completo del personal de Farmacia"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                            <input type="text" class="form-control" id="NombrePersonal">
+                        </div>
+                    </div>
+
+                    </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="esaveubicaacom">Guardar</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                </div>
+
+                    <!--   <div class="col-xs-12 col-sm-12" style="margin-top: 10px;">
+                 <!-- main area -->
+                <br >
+                <br>
+                <p class="text-center"><strong>ORDEN DE PRESCRIPCIÓN</strong></p>
+                <br>
+                <br>
+                <div class="row" style="margin-top: 10px;">
+
+                    <div class="col-md-4">
+
+                        <div class="form-group">
+                            <label for="FechaPrescripcion">Fecha de Prescripción</label> <a href="#" data-toggle="tooltip" data-placement="right" title=" Debe Ingresarla  Fecha de Prescripcion del  medicamento"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                            <input type="date" class="form-control" id="FechaPrescripcion">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group ">
+                            <label for="NumeroIdentificacion">Número de Indentificación del Paciente </label> 
+                            <a href="#" data-toggle="tooltip" data-placement="right" title="Número de identificación">
+                                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            </a><br>
+                            <input type="number"  class="form-control" name="id_practica" id="NumeroIdentificacion">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ">
+                        <div class="form-group">
+                            <label for="TipoIdentificacion">Tipo de identificación</label><a href="#" data-toggle="tooltip" data-placement="right" title="Debe seleccionar el tipo de identificación">
+                                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            </a>
+                            <br>
+                            <select id="TipoIdentificacion" class="js-select-basic-single js-states form-control" style="width: 100%;">
+                                <option value="0"></option>
+                                <option value="1">Cédula de Ciudadanía</option>
+                                <option value="2">Cédula de Extranjería</option>
+                                <option value="3">Tarjeta de Identidad</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="NombrePaciente">Nombre del Paciente</label>
+                             <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar el nombre del Paciente"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                            <input type="text" class="form-control" id="NombrePaciente">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="ApellidoPaciente">Apellido del Paciente</label>
+                             <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar el apellido del Paciente"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                            <input type="text" class="form-control" id="ApellidoPaciente">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ">
+                        <div class="form-group">
+                           <label for="Sexo">Sexo</label>
+                            <a href="#" data-toggle="tooltip" data-placement="right" title="Debe seleccionar el sexo del paciente">
+                                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            </a>
+                            <br>
+                            <select id="Sexo" class="js-select-basic-single js-states form-control" style="width: 100%;">
+                                <option value="0"></option>
+                                <option value="1">Femenino</option>
+                                <option value="2">Masculino</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row" style="margin-top: 10px;">
+
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="ReferenciaMedicamento">Referencia del medicamento</label> <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar la referencia del medicamento"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                            <input type="text" class="form-control" id="ReferenciaMedicamento">
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="DosisPrescrita">Dosis Prescrita</label> <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar las dosis prescritas por el medico"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                            <input type="text" class="form-control" id="DosisPrescrita">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="esaveubicaacom">Guardar</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                </div>               
+                </section> 
+ </div>
+              
+            </div>
+   
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+    <script src="js/freelancer.js"></script>
+</body>
+</html>

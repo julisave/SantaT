@@ -1,0 +1,102 @@
+﻿
+@{
+    ViewBag.Title = "DietaPaciente";
+}
+
+<h2 class="text-center" style=" margin:50px 0;">DIETA DEL PACIENTE</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Hospital Santa Tecla</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+</head>
+<body id="page-top">
+    
+    <div class=" form-group form">
+
+        <div class="container-fluid">
+            <section class="container">
+
+
+
+                <div class="col-xs-12 col-sm-12" style="margin-top: 10px;">
+                    <!-- main area -->
+
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group ">
+                                <label for="NumeroIdentificacion">Número de identificación </label>
+                                 <a href="#" data-toggle="tooltip" data-placement="right" title="Número de identificación">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                </a><br>
+                                <input type="number"  class="form-control" name="id_practica" id="NumeroIdentificacion">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="form-group ">
+                                <label for="NumeroHabitacion">Número de habitación </label>
+                                <a href="#" data-toggle="tooltip" data-placement="right" title="Número de habitación">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                </a>
+                                <br>
+                                <input type="number"  class="form-control" name="id_practica" id="NumeroHabitacion">
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <label for="NumeroCama">Número de cama </label>
+                            <a href="#" data-toggle="tooltip" data-placement="right" title="Número de cama">
+                                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            </a>
+                            <br>
+                            <input type="number"  class="form-control" name="id_practica" id="NumeroCama">
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12" style="margin-top: 10px;">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="DietaPaciente">Dieta del paciente</label>
+                                <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar la dieta  del paciente"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                                <textarea class="form-control" id="DietaPaciente"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <label for="InsruccionEspecial">Instrucción especial</label>
+                            <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar intrucciones especiales del paciente"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                            <textarea class="form-control" id="IstruccionEspecial"></textarea>
+                        </div>
+
+
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Guardar</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        </div>
+
+                    </div>
+                </div> 
+        </section> 
+         </div>
+
+                
+        </div>
+ 
+
+</body>
+</html>

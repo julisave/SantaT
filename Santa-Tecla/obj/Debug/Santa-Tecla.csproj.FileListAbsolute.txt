@@ -1,0 +1,297 @@
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Santa-Tecla.dll.config
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Santa-Tecla.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Santa-Tecla.pdb
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Antlr3.Runtime.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\EntityFramework.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\EntityFramework.SqlServer.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Google.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Web.Infrastructure.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Newtonsoft.Json.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Owin.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.Helpers.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.Mvc.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.Optimization.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.Razor.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Deployment.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Razor.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\WebGrease.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.Helpers.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.Mvc.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.Optimization.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.Razor.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Deployment.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Razor.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Newtonsoft.Json.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Antlr3.Runtime.pdb
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\EntityFramework.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\EntityFramework.SqlServer.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Google.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Helpers.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Mvc.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Optimization.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Razor.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\System.Web.WebPages.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\EntityFramework.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\obj\Debug\Santa-Tecla.csprojResolveAssemblyReference.cache
+D:\Zoologico\Santa-Tecla\Santa-Tecla\obj\Debug\Santa-Tecla.dll
+D:\Zoologico\Santa-Tecla\Santa-Tecla\obj\Debug\Santa-Tecla.pdb
+F:\Santa-Tecla\Santa-Tecla\bin\Santa-Tecla.dll.config
+F:\Santa-Tecla\Santa-Tecla\bin\Santa-Tecla.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Santa-Tecla.pdb
+F:\Santa-Tecla\Santa-Tecla\bin\Antlr3.Runtime.dll
+F:\Santa-Tecla\Santa-Tecla\bin\EntityFramework.dll
+F:\Santa-Tecla\Santa-Tecla\bin\EntityFramework.SqlServer.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Google.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Web.Infrastructure.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Newtonsoft.Json.dll
+F:\Santa-Tecla\Santa-Tecla\bin\Owin.dll
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.Helpers.dll
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.Mvc.dll
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.Optimization.dll
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.Razor.dll
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Deployment.dll
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.dll
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Razor.dll
+F:\Santa-Tecla\Santa-Tecla\bin\WebGrease.dll
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.Helpers.xml
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.Mvc.xml
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.Optimization.xml
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.Razor.xml
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.xml
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Deployment.xml
+F:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Razor.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Newtonsoft.Json.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Antlr3.Runtime.pdb
+F:\Santa-Tecla\Santa-Tecla\bin\EntityFramework.xml
+F:\Santa-Tecla\Santa-Tecla\bin\EntityFramework.SqlServer.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Google.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Helpers.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Mvc.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Optimization.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Razor.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.WebPages.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\EntityFramework.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\EntityFramework.SqlServer.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.Google.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+F:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+F:\Santa-Tecla\Santa-Tecla\obj\Debug\Santa-Tecla.csprojResolveAssemblyReference.cache
+F:\Santa-Tecla\Santa-Tecla\obj\Debug\Santa-Tecla.csproj.CoreCompileInputs.cache
+F:\Santa-Tecla\Santa-Tecla\obj\Debug\Santa-Tecla.dll
+F:\Santa-Tecla\Santa-Tecla\obj\Debug\Santa-Tecla.pdb
+E:\Santa-Tecla\Santa-Tecla\bin\Santa-Tecla.dll.config
+E:\Santa-Tecla\Santa-Tecla\bin\Santa-Tecla.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Santa-Tecla.pdb
+E:\Santa-Tecla\Santa-Tecla\bin\Antlr3.Runtime.dll
+E:\Santa-Tecla\Santa-Tecla\bin\EntityFramework.dll
+E:\Santa-Tecla\Santa-Tecla\bin\EntityFramework.SqlServer.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Google.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Web.Infrastructure.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Newtonsoft.Json.dll
+E:\Santa-Tecla\Santa-Tecla\bin\Owin.dll
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.Helpers.dll
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.Mvc.dll
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.Optimization.dll
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.Razor.dll
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Deployment.dll
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.dll
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Razor.dll
+E:\Santa-Tecla\Santa-Tecla\bin\WebGrease.dll
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.Helpers.xml
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.Mvc.xml
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.Optimization.xml
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.Razor.xml
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.xml
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Deployment.xml
+E:\Santa-Tecla\Santa-Tecla\bin\System.Web.WebPages.Razor.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Newtonsoft.Json.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Antlr3.Runtime.pdb
+E:\Santa-Tecla\Santa-Tecla\bin\EntityFramework.xml
+E:\Santa-Tecla\Santa-Tecla\bin\EntityFramework.SqlServer.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Google.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Santa-Tecla\Santa-Tecla\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Helpers.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Mvc.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Optimization.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.Razor.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.WebPages.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\EntityFramework.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\EntityFramework.SqlServer.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.Google.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Santa-Tecla\Santa-Tecla\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Santa-Tecla\Santa-Tecla\obj\Debug\Santa-Tecla.csprojResolveAssemblyReference.cache
+E:\Santa-Tecla\Santa-Tecla\obj\Debug\Santa-Tecla.dll
+E:\Santa-Tecla\Santa-Tecla\obj\Debug\Santa-Tecla.pdb
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Santa-Tecla.dll.config
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Santa-Tecla.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Santa-Tecla.pdb
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Antlr3.Runtime.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\EntityFramework.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\EntityFramework.SqlServer.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.Google.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Web.Infrastructure.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Newtonsoft.Json.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Owin.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.Helpers.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.Mvc.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.Optimization.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.Razor.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.WebPages.Deployment.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.WebPages.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.WebPages.Razor.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\WebGrease.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.Helpers.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.Mvc.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.Optimization.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.Razor.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.WebPages.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.WebPages.Deployment.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\System.Web.WebPages.Razor.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Newtonsoft.Json.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Antlr3.Runtime.pdb
+E:\Santa-Tecla - copia\Santa-Tecla\bin\EntityFramework.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\EntityFramework.SqlServer.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.Google.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\System.Web.Helpers.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\System.Web.Mvc.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\System.Web.Optimization.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\System.Web.Razor.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\System.Web.WebPages.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\EntityFramework.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\EntityFramework.SqlServer.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\Microsoft.Owin.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\Microsoft.Owin.Security.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\Microsoft.Owin.Security.Google.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Santa-Tecla - copia\Santa-Tecla\obj\Debug\Santa-Tecla.csprojResolveAssemblyReference.cache
+E:\Santa-Tecla - copia\Santa-Tecla\obj\Debug\Santa-Tecla.dll
+E:\Santa-Tecla - copia\Santa-Tecla\obj\Debug\Santa-Tecla.pdb

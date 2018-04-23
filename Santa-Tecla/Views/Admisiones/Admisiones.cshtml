@@ -1,0 +1,370 @@
+﻿@{
+    ViewBag.Title = "";
+}
+
+<h2 class="text-center" style=" margin:80px 0;">ADMISIONES</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Hospital Santa Tecla</title>
+    <!-- Bootstrap core CSS -->
+
+</head>
+<body>
+    <!--<div class="col-xs-12 col-sm-12" style="margin-top: 10px;" >-->
+    <div class="panel-primary">
+        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-md-4">
+                    <div class=" form-group">
+                        <label for="NumeroDeIdentificacion">Número de identificación </label>
+                        <input type="number" class="form-control numero" id="NumeroDeIdentificacion" required maxlength="20"
+                               placeholder="Introduce tu número de documento">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="TipoIdentificacion">Tipo de identificación</label>
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Debe seleccionar el tipo de identificación">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </a>
+                    <br>
+                    <select id="TipoIdentificacion" class="js-select-basic-single js-states form-control" style="width: 100%;">
+                        <option value="0"></option>
+                        <option value="1">Cédula de Ciudadania</option>
+                        <option value="2">Cédula de Extranjería</option>
+                        <option value="3">Tarjeta de Identidad</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="NombreCompletoPaciente">Nombre Completo</label>
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar el nombre completo del paciente">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </a>
+                    <input type="text" class="form-control" name="id_practica" id="NombreCompletoPaciente">
+                </div>
+            </div>
+        </form>
+        <form name="sentMessage" id="Telefono" novalidate="novalidate">
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-md-4">
+                    <label>Telefono</label>
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Debe ingresar en numero de telefono del paciente">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </a>
+                    <input type="number" class="form-control" id="Telefono">
+                </div>
+
+                <div class="col-md-4">
+
+                    <label for="NumeroCama">Número de Cama</label>
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar el numero de cama del paciente">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </a>
+                    <input type="number" class="form-control" id="NumeroCama">
+                </div>
+
+                <div class="col-md-4 ">
+
+                    <label for="pe_tipo_id">Sexo</label>
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Debe seleccionar el sexo del paciente">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </a>
+                    <br>
+                    <select id="Sexo" class="js-select-basic-single js-states form-control" style="width: 100%;">
+                        <option value="0"></option>
+                        <option value="1">Femenino</option>
+                        <option value="2">Masculino</option>
+
+                    </select>
+                </div>
+            </div>
+        </form>
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label>Fecha de Nacimiento</label> <a href="#" data-toggle="tooltip" data-placement="right" title="Ingresar la fecha de hoy"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                    <input type="date" class="form-control" id="nombre_acomp">
+                </div>                               
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group form-inline">
+                    <label for="DireccionResidencia">Dirección de residencia </label>
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar la dirección de residencia del paciente">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </a><br>
+                    <input type="text" class="form-control" id="DireccionResidencia" style="width: 85%" readonly>
+                    <button type="button" class="btn btn-success btn-xs" data-target="#edirestudacom" data-toggle="modal" style="margin-left: 5px;"><span class="glyphicon glyphicon-search"></span></button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="Contraindicaciones">Contraindicaciones</label>
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Debe indicar las contraindicaciones del paciente">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </a>
+                <textarea class="form-control" id="Contraindicaciones"></textarea>
+            </div>
+        </div>
+
+
+
+        <div class="modal" id="edirestudacom">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header ">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Dirección de residencia</h3>
+                    </div>
+                    <div class="modal-body">
+
+                        <form class="form-group">
+                            <div class="form-group">
+                                <label for="pais">Pa&iacute;s</label><a href="#" data-toggle="tooltip" data-placement="right" title="Debe seleccionar el país" style="margin-left: 5px;"><i class="fa fa-question-circle" aria-hidden="true"></i></a><br>
+                                <select style="width: 100%" name="pais_nombre" id="epais_nombreacom" class="js-select-basic-single js-states form-control">
+                                    <option></option>
+                                    <option value=""></option>
+                                    <option value="Colombia">Colombia</option>
+                                    <option value="Albania">Albania</option>
+
+
+                                    <option value="Austria">Austria</option>
+                                    <option value="Belgica">Belgica</option>
+                                    <option value="Bulgaria">Bulgaria</option>
+                                    <option value="Chipre">Chipre</option>
+                                    <option value="Dinamarca">Dinamarca</option>
+                                    <option value="España">España</option>
+                                    <option value="Finlandia">Finlandia</option>
+                                    <option value="Francia">Francia</option>
+                                    <option value="Grecia">Grecia</option>
+                                    <option value="Hungria">Hungria</option>
+                                    <option value="Irlanda">Irlanda</option>
+                                    <option value="Islandia">Islandia</option>
+                                    <option value="Italia">Italia</option>
+                                    <option value="Liechtenstein">Liechtenstein</option>
+                                    <option value="Luxemburgo">Luxemburgo</option>
+                                    <option value="Malta">Malta</option>
+                                    <option value="Monaco">Monaco</option>
+                                    <option value="Noruega">Noruega</option>
+                                    <option value="Paises Bajos">Paises Bajos</option>
+                                    <option value="Polonia">Polonia</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Reino Unido">Reino Unido</option>
+                                    <option value="Alemania">Alemania</option>
+                                    <option value="Rumania">Rumania</option>
+                                    <option value="San Marino">San Marino</option>
+                                    <option value="Santa Sede">Santa Sede</option>
+                                    <option value="Suecia">Suecia</option>
+
+                                    <option value="Libano">Libano</option>
+                                    <option value="Malasia">Malasia</option>
+                                    <option value="Maldivas">Maldivas</option>
+                                    <option value="Mongolia">Mongolia</option>
+                                    <option value="Nepal">Nepal</option>
+                                    <option value="Oman">Oman</option>
+                                    <option value="Pakistan">Pakistan</option>
+                                    <option value="Qatar">Qatar</option>
+                                    <option value="Corea">Corea</option>
+                                    <option value="Corea Del Norte ">Corea Del Norte </option>
+                                    <option value="Singapur">Singapur</option>
+                                    <option value="Siria">Siria</option>
+                                    <option value="Sri Lanka">Sri Lanka</option>
+                                    <option value="Tailandia">Tailandia</option>
+                                    <option value="Turquia">Turquia</option>
+                                    <option value="Vietnam">Vietnam</option>
+                                    <option value="Brunei">Brunei</option>
+                                    <option value="Islas Marshall">Islas Marshall</option>
+                                    <option value="Yemen">Yemen</option>
+                                    <option value="Azerbaiyan">Azerbaiyan</option>
+                                    <option value="Kazajstan">Kazajstan</option>
+                                    <option value="Kirguistan">Kirguistan</option>
+                                    <option value="Tadyikistan">Tadyikistan</option>
+                                    <option value="Turkmenistan">Turkmenistan</option>
+
+                                    <option value="Wallis Y Fortuna">Wallis Y Fortuna</option>
+                                    <option value="Samoa Americana">Samoa Americana</option>
+                                    <option value="Otros Paises O Territorios De Oceania">Otros Paises O Territorios De Oceania</option>
+                                </select>
+                            </div>
+                        </form>
+                        <div class="form-group">
+                            <label for="ciu">Departamento</label><a href="#" data-toggle="tooltip" data-placement="right" title="Debe seleccionar el departamento " style="margin-left: 5px;"><i class="fa fa-question-circle" aria-hidden="true"></i></a><br>
+                            <select style="width: 100%" name="depto_nombre" id="edepto_nombreacom" class="js-select-basic-single js-states form-control"><option value=""></option><option value="Antioquia">Antioquia</option><option value="Amazonas">Amazonas</option><option value="Envigado">Envigado</option><option value="Sao_paulo">São paulo</option><option value="Bahia">Bahía</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ciu">Ciudad</label><a href="#" data-toggle="tooltip" data-placement="right" title="Debe seleccionar la ciudad " style="margin-left: 5px;"><i class="fa fa-question-circle" aria-hidden="true"></i></a><br>
+                            <select style="width: 100%" name="ciudad_nombre" id="eciudad_nombre" class="js-select-basic-single js-states form-control">
+                                <option value=""></option>
+                                <option value="medellín">medellín</option>
+                                <option value="abejorral">abejorral</option>
+                                <option value="abriaquí">abriaquí</option>
+                                <option value="alejandría">alejandría</option>
+                                <option value="amagá">amagá</option>
+                                <option value="amalfi">amalfi</option>
+                                <option value="andes">andes</option>
+                                <option value="angelópolis">angelópolis</option>
+                                <option value="angostura">angostura</option>
+
+                                <option value="guaranda">guaranda</option>
+                                <option value="la unión">la unión</option>
+                                <option value="los palmitos">los palmitos</option>
+                                <option value="majagual">majagual</option>
+                                <option value="morroa">morroa</option>
+                                <option value="ovejas">ovejas</option>
+                                <option value="palmito">palmito</option>
+                                <option value="sampués">sampués</option>
+                                <option value="san benito abad">san benito abad</option>
+                                <option value="san juan de betulia">san juan de betulia</option>
+                                <option value="san marcos">san marcos</option>
+                                <option value="san onofre">san onofre</option>
+                                <option value="san pedro">san pedro</option>
+                                <option value="san luis de sincé">san luis de sincé</option>
+                                <option value="sucre">sucre</option>
+                                <option value="santiago de tolú">santiago de tolú</option>
+                                <option value="tolú viejo">tolú viejo</option>
+                                <option value="ibagué">ibagué</option>
+                                <option value="alpujarra">alpujarra</option>
+                                <option value="alvarado">alvarado</option>
+
+                                <option value="purificación">purificación</option>
+                                <option value="rioblanco">rioblanco</option>
+                                <option value="roncesvalles">roncesvalles</option>
+                                <option value="rovira">rovira</option>
+                                <option value="saldaña">saldaña</option>
+                                <option value="san antonio">san antonio</option>
+                                <option value="san luis">san luis</option>
+                                <option value="santa isabel">santa isabel</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dir">Dirección</label><a href="#" data-toggle="tooltip" data-placement="right" title="Debe diligenciar la dirección " style="margin-left: 5px;"><i class="fa fa-question-circle" aria-hidden="true"></i></a><br>
+                            <input type="text" class="form-control" id="direccion">
+                        </div>
+
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-success" id="esaveubicaacom">Guardar</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <p class="text-center"><strong>DATOS ECONOMICOS</strong></p>
+        <br>
+        <div class=" row">
+            <div class="col-md-6">
+
+                <label for="DireccionPostal">Dirección Postal</label>
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Ingresar la dirección postal">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </a>
+                <input type="text" class="form-control" id="DireccionPostal">
+            </div>
+
+            <div class="col-md-6 ">
+
+                <label for="FormaPago">Forma de Pago</label>
+                <a href="#" data-toggle="tooltip" data-placement="right" title="">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </a>
+                <br>
+                <select id="FormaPago" class="js-select-basic-single js-states form-control" style="width: 100%;">
+                    <option value="0"></option>
+                    <option value="1">Entidad Aseguradora</option>
+                    <option value="2">Efectivo</option>
+                    <option value="2">Tarjeta</option>
+
+                </select>
+            </div>
+        </div>
+        <br>
+        <br />
+
+        <div class="row">
+            <div class="col-md-12">
+                <input type="submit" value="Guardar"
+                       class="btn btn-primary" />
+            </div>
+        </div>
+       </div> 
+
+            <script>
+                $('.datepicker').datepicker({
+                    format: 'dd/mm/yyyy'
+                });
+
+
+
+
+                $('.numero').keyup(function () {
+                    this.value = this.value.replace(/[^ 0-9]/g, '');
+                });
+
+                $('#paciente').submit(function (event) {
+                    if ($('#NumeroDeIdentificacion').val().length < 6) {
+                        mensaje.warning('El numero de documento debe tener minimo seis digitos');
+                        return false;
+                    }
+
+                    if (!validarFechaNacimiento($('#FechaNacimiento').val())) {
+                        mensaje.warning('la fecha de nacimiento no es válida');
+                        return false;
+                    }
+                    debugger;
+                    if (!$('#femenino:checked').val() &&
+                        !$('#masculino:checked').val()) {
+                        mensaje.warning('Debe seleccionar el sexo');
+                        return false;
+
+                    }
+
+
+                });
+
+
+                mensaje = {};
+                mensaje.warning = function (texto) {
+                    $('#mensaje_placeholder').
+                    html('<div class="alert alert-danger">' +
+                    '<a class= "close" data-dismiss="alert">x</a><span>'
+                    + texto + '</span></div>');
+
+                };
+
+                function validarFechaNacimiento(fecha) {
+                    var fechas = fecha.split("/");
+                    var nuevaFecha = new Date(parseInt(fechas[2], 10),
+                        parseInt(fechas[1], 10) - 1,
+                        parseInt(fechas[0], 10));
+
+                    if (nuevaFecha > new Date()) {
+                        return false;
+                    }
+
+                    else {
+                        return true;
+                    }
+
+
+                }
+
+
+            </script>
+
+</body>
+
+</html>
+
